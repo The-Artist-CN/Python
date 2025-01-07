@@ -1,0 +1,8 @@
+Python 虚拟环境的二进制骨架
+在 Python 3.12 的虚拟环境中，二进制骨架可能指的是虚拟环境创建时的最小结构。虚拟环境是通过 venv 工具或 virtualenv 工具创建的，它会在目录中生成以下几种基本文件和目录：
+
+bin/（Linux/macOS） 或 Scripts/（Windows）：包含 Python 解释器和相关的可执行文件（如 pip）。
+lib/：包含 Python 库和模块。
+pyvenv.cfg：虚拟环境的配置文件，指示了基础 Python 版本的路径和虚拟环境的设置。
+include/：包含 Python 开发头文件（可选）。
+这个虚拟环境本身就是一个"二进制骨架"，它提供了隔离的环境和最基本的 Python 运行时，可以让你安装依赖、运行项目，并避免与系统级的 Python 包产生冲突。

@@ -1,0 +1,15 @@
+home = /usr/bin：这个字段指示虚拟环境的基础 Python 解释器的位置。通常它会指向系统的 Python 安装路径。
+
+implementation = CPython：表明这个虚拟环境使用的是 CPython 实现，这是 Python 最常见的实现。
+
+version_info = 3.12.7.final.0：显示了 Python 版本的信息，这里是 Python 3.12.7。
+
+virtualenv = 20.24.5：表示用于创建该虚拟环境的 virtualenv 工具的版本。
+
+include-system-site-packages = false：这个设置指示虚拟环境不包括系统级别的 Python 包。如果它设置为 true，那么虚拟环境会包含系统级 Python 包，可能导致依赖冲突。
+
+base-prefix = /usr：这是 Python 安装的基础前缀路径，通常指向系统 Python 的安装目录。
+
+base-exec-prefix = /usr：与 base-prefix 类似，指示可执行文件的基础路径。
+
+base-executable = /usr/bin/python3.12：显示了虚拟环境使用的基础 Python 可执行文件的位置。
